@@ -42,6 +42,7 @@ $(document).ready(function () {
             var results = response.data;
             for (i = 0; i < 10; i++) {
                 var gifBox = $("<div>");
+                gifBox.attr("class","float-left")
                 var rating = $("<p>").text("Rating: " + results[i].rating);
                 console.log(rating)
 
