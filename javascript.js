@@ -9,6 +9,7 @@ $(document).ready(function () {
             button.html(sports[i])
             //    button.attr("id", "giphyButton")
             button.attr("data-name", sports[i])
+            button.attr("class","button")
             $(".buttons").append(button)
             console.log(button.attr("data-name"))
             // $(".buttons").append($("<button>").html(sports[i]).attr("id", "giphyButton").attr("data-name", sports[i]))
@@ -44,7 +45,7 @@ $(document).ready(function () {
                 var rating = $("<p>").text("Rating: " + results[i].rating);
                 console.log(rating)
 
-                //                 //adding many attr to image for pausing effect on gifs, as its loaded it is still 
+            //adding many attr to image for pausing effect on gifs, as its loaded it is still 
                 var image = $("<img>").attr("src", results[i].images.fixed_height_still.url)
                 image.attr("data-still", results[i].images.fixed_height_still.url)
                 image.attr("data-animate", results[i].images.fixed_height.url)

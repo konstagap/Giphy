@@ -1,0 +1,33 @@
+h1,h3,p{
+    color:  rgb(76, 175, 79);
+    text-shadow: 1px 1px rgb(37, 36, 36);
+}
+p{
+    margin: 0px;
+    margin-top:3px;
+}
+.button {
+    text-shadow: .5px .5px rgb(37, 36, 36);
+    margin-right: 4px;
+    display: inline-block;
+    padding: 3px 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(76, 175, 79);
+    border: 1 solid  rgb(96, 180, 101);
+    border-radius: 5px;
+    box-shadow: 1px rgb(92, 91, 91);
+    transition: .4s linear;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41b6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
