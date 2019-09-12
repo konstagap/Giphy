@@ -20,6 +20,7 @@ $(document).ready(function () {
     // // we also use showbuttons function to update array with new value and add it to screen as button.
     $(document).on("click", "#submitButton", function (event) {
         if ($("#userSearch").val() == ""){
+            event.preventDefault();
             return
         } else{
         event.preventDefault();
